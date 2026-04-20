@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def read_route():
-    return {"message": "Hello World! v1"}
+    return {"message": "Hello World! v2"}
 
 
 books = [
