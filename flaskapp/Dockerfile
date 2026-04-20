@@ -1,5 +1,5 @@
-ARG PYTHON_VERSION=3.11.9
-FROM python:${PYTHON_VERSION}-alpine
+# ARG PYTHON_VERSION=3.11.9
+FROM python:3.10-alpine
 WORKDIR /app
 # Copy the source code into the container.
 COPY . /app
